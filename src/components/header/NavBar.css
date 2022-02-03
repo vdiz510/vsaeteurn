@@ -2,10 +2,9 @@
     margin-top: 1%;
 }
 
-.delay-me {
-    transition-delay: 0.25s;
+.ui.secondary.menu .dropdown.item>.menu, .ui.text.menu .dropdown.item>.menu {
+    margin-top: 0px;
 }
-
 /* .ui.buttons>.ui.dropdown:last-child .menu, .ui.menu .right.dropdown.item .menu, .ui.menu .right.menu .dropdown:last-child .menu {
     right: auto;
 } */

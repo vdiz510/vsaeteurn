@@ -36,40 +36,6 @@ const NavBar = () => {
         <Link href="/socials" className="item">
           Socials
         </Link>
-
-
-        {/* <Menu secondary>
-            <Menu.Item
-              name="home"
-              active={activeItem === 'home'}
-              onClick={this.handleItemClick}
-            />
-            <Menu.Item
-              name="about me"
-              active={activeItem === 'about me'}
-              onClick={this.handleItemClick}
-            />
-            <Dropdown text='Demos' pointing className='link item'>
-              <Dropdown.Menu>
-                <Dropdown.Item>
-                  <Dropdown text='NBA'>
-                    <Dropdown.Menu>
-                      <Dropdown.Item >Teams</Dropdown.Item>
-                      <Dropdown.Item>Live Scores</Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown>
-                </Dropdown.Item>
-                <Dropdown.Item>YouTube</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-
-            <Menu.Item
-              name="socials"
-              active={activeItem === 'socials'}
-              onClick={this.handleItemClick}
-            />
-          </Menu>
-           */}
       </div>
     </div>
   )
