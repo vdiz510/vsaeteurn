@@ -6,7 +6,7 @@ const NavBar = () => {
   // const [open, setOpen] = useState(false)
 
   return (
-    <div className="ui secondary menu navbar">
+    <div className="ui secondary menu navbar container">
       <div className="right menu">
 
         <Link href="/" className="item">Home</Link>

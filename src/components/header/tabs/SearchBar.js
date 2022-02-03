@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import './Search.css'
 
 const SearchBar = () => {
   const [term, setTerm] = useState('')
@@ -8,10 +9,10 @@ const SearchBar = () => {
   }
 
   return (
-    <div className="search-bar ui segment">
+    <div className="search-bar ui segment container">
       <form className="ui form">
         <div className="field">
-          <label>Video Search</label>
+          <label>Search YouTube Videos</label>
           <input
             type="text"
             value={term}

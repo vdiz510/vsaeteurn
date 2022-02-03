@@ -1,10 +1,7 @@
 .ui.secondary.menu {
-    margin-right: 10%;
+    /* margin-right: 1%; */
 }
 
 .ui.secondary.menu .dropdown.item>.menu, .ui.text.menu .dropdown.item>.menu {
     margin-top: 0px;
 }
-/* .ui.buttons>.ui.dropdown:last-child .menu, .ui.menu .right.dropdown.item .menu, .ui.menu .right.menu .dropdown:last-child .menu {
-    right: auto;
-} */

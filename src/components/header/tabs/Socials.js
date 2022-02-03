@@ -2,7 +2,9 @@ import React from 'react'
 
 const Socials = () => {
   return (
-    <div>Socials</div>
+    <div className="ui container">
+      <h2>Socials</h2>
+    </div>
   )
 }
 

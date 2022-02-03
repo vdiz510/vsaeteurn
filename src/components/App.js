@@ -8,7 +8,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="navbar">
+      <div>
         <NavBar />
         <Tabs />
       </div>

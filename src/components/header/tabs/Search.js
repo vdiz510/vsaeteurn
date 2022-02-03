@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import SearchBar from '../tabs/SearchBar'
+import './Search.css'
 
 const Search = () => {
   const [term, setTerm] = useState([])
@@ -20,7 +21,9 @@ const Search = () => {
 
 
   return (
-    <div><SearchBar /></div>
+    <div className="search-bar">
+      <SearchBar />
+    </div>
   )
 }
 
