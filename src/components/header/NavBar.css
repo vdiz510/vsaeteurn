@@ -1,5 +1,5 @@
-.navbar {
-    margin-top: 1%;
+.ui.secondary.menu {
+    margin-right: 10%;
 }
 
 .ui.secondary.menu .dropdown.item>.menu, .ui.text.menu .dropdown.item>.menu {
