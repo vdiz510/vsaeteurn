@@ -1,0 +1,11 @@
+.navbar {
+    margin-top: 1%;
+}
+
+.delay-me {
+    transition-delay: 0.25s;
+}
+
+/* .ui.buttons>.ui.dropdown:last-child .menu, .ui.menu .right.dropdown.item .menu, .ui.menu .right.menu .dropdown:last-child .menu {
+    right: auto;
+} */
