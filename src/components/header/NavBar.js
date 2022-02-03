@@ -3,21 +3,16 @@ import Link from './Link'
 import './NavBar.css'
 
 const NavBar = () => {
-  const [open, setOpen] = useState(false)
+  // const [open, setOpen] = useState(false)
 
   return (
     <div className="ui secondary menu navbar">
       <div className="right menu">
 
-        <Link href="/" className="item">
-          Home
-        </Link>
+        <Link href="/" className="item">Home</Link>
+        <Link href="/about" className="item">About Me</Link>
 
-        <Link href="/about" className="item">
-          About Me
-        </Link>
-
-        <Link href="/demos" className={`ui simple dropdown item ${open ? 'active' : ''}`} onClick={() => setOpen(!open)}>
+        <div className="ui simple dropdown item">
           Demos
           <i className="dropdown icon"></i>
           <div className="menu">
@@ -25,17 +20,15 @@ const NavBar = () => {
               <i className="dropdown icon"></i>
               <span className="text">NBA</span>
               <div className="menu">
-                <div className="item">Teams</div>
-                <div className="item">Live Scores</div>
+                <Link href="/nba-teams" className="item">Teams</Link>
+                <Link href="/nba-scores" className="item">Live Scores</Link>
               </div>
             </div>
-            <div className="item">Youtube Search</div>
+            <Link href="/search" className="item">Youtube Search</Link>
           </div>
-        </Link>
+        </div>
 
-        <Link href="/socials" className="item">
-          Socials
-        </Link>
+        <Link href="/socials" className="item">Socials</Link>
       </div>
     </div>
   )
