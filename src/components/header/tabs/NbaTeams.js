@@ -39,7 +39,8 @@ const NbaTeams = () => {
 
   return (
     <div className="ui container">
-      NBA Teams {nbaData}
+      <h2>NBA Teams</h2>
+      {nbaData}
     </div>
   )
 }
